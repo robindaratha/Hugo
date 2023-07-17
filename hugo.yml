@@ -83,6 +83,8 @@ params:
       url: "https://Linkedin.com/in/robin-daratha-87618012a"
     - name: github
       url: "https://github.com/robindaratha"
+    - name: XING
+      url: "https://xing.om/profile/Robin_Daratha/cv"
 
   analytics:
     google:
