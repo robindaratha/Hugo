@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Homepage
-  description: "Homepage description"
+  description: "Homepage Beschreibung"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -60,7 +60,7 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: Homepage
-    subtitle: "This is subtitle"
+    subtitle: "Blog und Sonstiges von Robin Daratha"
     imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
@@ -116,16 +116,16 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: Kategorien
-      name: Kategorien
-      url: /kategorien/
+    - identifier: Posts
+      name: Posts
+      url: /posts/
       weight: 10
     - identifier: Tags
       name: Tags
       url: /tags/
       weight: 20
     - identifier: Homepage
-      name: daratha.net
+      name: Startseite
       url: https://daratha.net
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
