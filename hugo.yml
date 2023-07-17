@@ -67,9 +67,9 @@ params:
     imageTitle: my image
     buttons:
       - name: Posts
-        url: posts
+        url: /posts/
       - name: Tags
-        url: tags
+        url: /tags/
 
   # home-info mode
   homeInfoParams:
