@@ -116,10 +116,10 @@ menu:
   main:
     - identifier: Kategorien
       name: Kategorien
-      url: /Kategorien/
+      url: /kategorien/
       weight: 10
-    - identifier: tags
-      name: tags
+    - identifier: Tags
+      name: Tags
       url: /tags/
       weight: 20
     - identifier: Homepage
