@@ -132,13 +132,13 @@ menu:
       name: About
       url: /about/
       weight: 30
-    - identifier: Suche
-      name: Suche
-      url: /search/
-      weight: 40
     - identifier: Homepage
       name: Startseite
       url: https://daratha.net
+      weight: 40
+    - identifier: Suche
+      name: Suche
+      url: /search/
       weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
