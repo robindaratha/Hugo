@@ -1,15 +1,14 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
-categories: 
-    - Linux
-    - Windows
-    - Networking
-    - Skripte
+draft: true  
 tags: 
     - Powershell
     - How-To
     - Wiki
+    - Linux
+    - Windows
+    - Networking
+    - Skripte
 ---
 

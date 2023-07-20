@@ -2,10 +2,9 @@
 title: "Chrome via Ps"
 date: 2023-07-20T19:50:25+02:00
 draft: false
-categories: 
+tags: 
     - Windows
     - Skripte
-tags: 
     - Powershell
     - Installation
 ---

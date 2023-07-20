@@ -68,8 +68,6 @@ params:
     buttons:
       - name: Beiträge
         url: /Posts/
-      - name: Kategorien
-        url: /categories/
       - name: Tags
         url: /tags/
       - name: About
@@ -124,22 +122,18 @@ menu:
       name: Beiträge
       url: /Posts/
       weight: 10
-    - identifier: Kategorien
-      name: Kategorien
-      url: /categories/
-      weight: 20
     - identifier: Tags
       name: Tags
       url: /tags/
-      weight: 30
+      weight: 20
     - identifier: About
       name: About
       url: /about/
-      weight: 40
+      weight: 30
     - identifier: Homepage
       name: Startseite
       url: https://daratha.net
-      weight: 50
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
