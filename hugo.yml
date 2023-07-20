@@ -1,6 +1,6 @@
 baseURL: https://daratha.net/
 languageCode: de-de
-paginate: 5
+#paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -17,20 +17,20 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Homepage
-  description: "Homepage Beschreibung"
+  description: "Homepage"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  images: "/about/Images/Profilbild_RDA.jpg"
+  DateFormat: "02 Jan 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -61,15 +61,19 @@ params:
     enabled: false # needs to be explicitly set
     title: Homepage
     subtitle: "Blog und Sonstiges von Robin Daratha"
-    imageUrl: "<img location>"
+    #imageUrl: "Images/Profilbild_RDA.jpg"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
-   # buttons:
-   #   - name: Beiträge
-   #     url: /posts/
-   #   - name: Tags
-   #     url: /tags/
+    imageTitle: Profilbild_RDA
+    buttons:
+      - name: Beiträge
+        url: /Posts/
+      - name: Kategorien
+        url: /categories/
+      - name: Tags
+        url: /tags/
+      - name: About
+        url: /about/
 
   # home-info mode
   homeInfoParams:
@@ -118,23 +122,31 @@ menu:
   main:
     - identifier: Beiträge
       name: Beiträge
-      url: /posts/
+      url: /Posts/
       weight: 10
+    - identifier: Kategorien
+      name: Kategorien
+      url: /categories/
+      weight: 20
     - identifier: Tags
       name: Tags
       url: /tags/
-      weight: 20
+      weight: 30
+    - identifier: About
+      name: About
+      url: /about/
+      weight: 40
     - identifier: Homepage
       name: Startseite
       url: https://daratha.net
-      weight: 30
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
     # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
+    codeFences: true
+    guessSyntax: true
     # lineNos: true
     # style: monokai
