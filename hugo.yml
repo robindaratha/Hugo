@@ -39,7 +39,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -72,6 +72,8 @@ params:
         url: /tags/
       - name: About
         url: /about/
+      - name: Suche
+        url: /search
 
   # home-info mode
   homeInfoParams:
@@ -130,10 +132,14 @@ menu:
       name: About
       url: /about/
       weight: 30
+    - identifier: Suche
+      name: Suche
+      url: /search/
+      weight: 40
     - identifier: Homepage
       name: Startseite
       url: https://daratha.net
-      weight: 40
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -144,3 +150,8 @@ markup:
     guessSyntax: true
     # lineNos: true
     # style: monokai
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
