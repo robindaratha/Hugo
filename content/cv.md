@@ -9,9 +9,9 @@ tags:
 |  |
 | -----   | ----- |
 | Name   | Robin Daratha |
-| Anschrift   | Wiesengrund 8, 38559 Wagenhoff |
-| Tel.   | 0174-6374200 |
-| E-Mail  | robindaratha@gmail.com |
+| Anschrift   |Braunschweig, Niedersachsen|
+| Tel.   | Nach Rückfrage |
+| E-Mail  | siehe Kontaktformular|
 | geb.    | 10.06.1997 in Gifhorn|
 | Familienstand   | ledig |
 
