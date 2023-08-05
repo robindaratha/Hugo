@@ -72,6 +72,8 @@ params:
         url: /tags/
       - name: About
         url: /about/
+      - name: Kontakt
+        url: /contact
       - name: Suche
         url: /search
 
@@ -135,11 +137,15 @@ menu:
     - identifier: Homepage
       name: Startseite
       url: https://daratha.net
+      weight: 50
+    - identifier: Kontakt
+      name: Kontakt
+      url: /contact/
       weight: 40
     - identifier: Suche
       name: Suche
       url: /search/
-      weight: 50
+      weight: 60
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
