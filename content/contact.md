@@ -7,13 +7,24 @@ tags:
 ---
 Ihr könnt mich unter meinen Social Media Links auf der Startseite oder unter dem folgenden Kontaktforluar erreichen:
 
-<form action="https://api.web3forms.com/submit" method="POST">
-
-    <input type="hidden" name="access_key" value="API_Key_here">
-
-    <input type="text" name="Name" required>
-    <input type="email" name="E-Mail" required>
-    <textarea name="message" required></textarea>
-    <button type="submit">Kontaktiere mich</button>
-
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
 </form>
+
