@@ -6,8 +6,12 @@ Hallo liebe Leute, das ist mein persönlicher Blog, in dem ich über alles mögl
 
 
 
-Hier kann man auch meine Fresse begutachten
+Hier habt ihr mal ein Bild von mir:
 ![Profilbild](/images/Profilbild_RDA.jpg)
 
 Die Webseite wurde mittels Markdown Syntax und Hugo geschrieben. Der Code liegt hier auf Github zur freien Einsicht:
 https://github.com/robindaratha/Hugo
+
+# Lebenslauf
+Meinen Lebenlauf könnt ihr unter dem folgenden Link finden:
+[Lebenlauf](/cv)
