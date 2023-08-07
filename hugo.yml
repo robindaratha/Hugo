@@ -72,8 +72,8 @@ params:
         url: /tags/
       - name: About
         url: /about/
-      - name: Kontakt
-        url: /contact
+#      - name: Kontakt
+#        url: /contact
       - name: Suche
         url: /search
 
@@ -138,9 +138,9 @@ menu:
       name: Startseite
       url: https://daratha.net
       weight: 50
-    - identifier: Kontakt
-      name: Kontakt
-      url: /contact/
+#    - identifier: Kontakt
+#      name: Kontakt
+#      url: /contact/
       weight: 40
     - identifier: Suche
       name: Suche
