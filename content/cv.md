@@ -11,7 +11,7 @@ tags:
 | Name   | Robin Daratha |
 | Anschrift   |Braunschweig, Niedersachsen|
 | Tel.   | Nach Rückfrage |
-| E-Mail  | siehe Kontaktformular|
+| E-Mail  | nach Rückfrage|
 | geb.    | 10.06.1997 in Gifhorn|
 | Familienstand   | ledig |
 
