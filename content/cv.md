@@ -40,6 +40,10 @@ tags:
 | M365 | Exchange Online <br>Teams<br>AD Sync|
 | Telefonie | 3CX<br>Agfeo | 
 
+# IT Projekte
+* Migration von lokalem Exchange Server zu Exchange Online
+* Migration von Serverlandschaft in neues Rechenzentrum
+* Aufbau einer kompletten Arztpraxis mit neuen Clients, Servern, netzwerk und IOT-Geräten
 
 # Sonstiges
 |  |
