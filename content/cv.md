@@ -6,48 +6,81 @@ tags:
    
 ---
 # Persönliche Daten
-|  |
-| -----   | ----- |
-| Name   | Robin Daratha |
-| Anschrift   |Braunschweig, Niedersachsen|
-| Tel.   | Nach Rückfrage |
-| E-Mail  | nach Rückfrage|
-| geb.    | 10.06.1997 in Gifhorn|
-| Familienstand   | ledig |
+| <!-- -->      | <!-- -->                    |
+|---------------|-----------------------------|
+| Name          | Robin Daratha               |
+| Anschrift     | Braunschweig, Niedersachsen |
+| Tel.          | Nach Rückfrage              |
+| E-Mail        | nach Rückfrage              |
+| geb.          | 10.06.1997 in Gifhorn       |
+| Familienstand | ledig                       |
+
 
 # Berufliche Laufbahn
-|  |
-| ----- | ----- | ----- |
-| Januar 2022 - heute | Health IT Services GmbH | Systemadministration |
-| Juli 2020 - Dezember 2021 | Jupi Networks GmbH & Co. KG | Fachinformatiker Systemintegration |
+## Januar 2022 - heute
+*Health IT Services GmbH - Fachinformatiker Systemintegration*
+### Aufgaben
+* Systemadministration im Windows Server Umfeld inkl. Hyper-V, Active-Directory, DNS, Exchange etc.
+* Backup Administration
+* Grundlegende Linux Erfahrungen
+* Netzwerkkonfiguration inkl. Verwaltung der Firewalls, Switche, VPN Verbindungen
+* Verwaltung M365 inkl. Exchange Online, Teams und Sharepoint
+* seit Juni 2023 Administration VMWare für Datacenter Betrieb
+* Supportarbeiten als interner IT-Mitarbieter
+* Externe Projektarbeiten im Umweld Active-Directory Unterstützungen für Kunden
+### Verwendete Technologien
+* Windows Betriebssyteme (Client und Server)
+* On-Premise Exchange
+* Linux Betriebssysteme (Debian, Ubuntu, AlmaLinux)
+* Virtualisierung (Hyper-V und VMWare)
+* Firewall (Sophos UTM, Watchguard)
+* Switche (Cisco)
+* M365 (Exchange Online, Teams, Sharepoint)
+* Atlassian (Confluence, Jira, Jira Service Management)
+* Veeam Backup
+* Telefonie (3CX)
+
+### Projekte
+* Migration und Ablösung des lokalen Exchange über Cutover Migration zu Exchange Online
+* Migration aller Server und Netzwerkrouten in neues Rechenzentrum
+
+## Juli 2020 - Dezember 2021
+*Jupi Networks GmbH & Co. KG - Fachinformatiker Systemintegration / Servicetechniker*
+### Aufgaben
+* Systemadministration im Windows Server Umfeld
+* Arbeit als Servicetechniker auch vor Ort beim Kunden
+* Monitoring und Managed Services
+* Serverbereitstellungen und -konfigurationen für Endkunden
+* 1st- und 2nd-Level Support im Systemhaus
+* Eigenständige Projektarbeit, darunter Planung, Umsetzung und Dokumentation
+
+### Verwendete Technologien
+* Solarwinds / N-Able RMM und Monitoring
+* ITGLue Dokumentationsplattform
+* ESET Managed AV und MFA
+* Firewall (Lancom)
+* Switche (Cisco)
+* Windows Betriebssyteme (Client und Server)
+* Virtualisierung (Hyper-V)
+* Veeam Backup
+* On-Premise Exchange
+* Telefonie (Agfeo ES)
+
+### Projekte
+* Aufbau und Unterstützung einer neuen Arztpraxis inkl. aller nötigen IT-Anfoderungen (Server, Netzwerk, Clients, Software mit Hersteller, WLAN, Backupstrategie)
+* Migration lokaler 2010 Exchange Server zu Exchange 2016
 
 # Ausbildung
-|  |
-| ----- | ----- | ----- |
-| Aug 2017 - Juni 2020 | Jupi Networks GmbH & Co. KG & BBS2 Wolfsburg | Abschluss: Abgeschlossene Ausbildung zum Fachinformatiker / Systemintegration |
-| Juli 2007 - Juni 2016 | Humboldt Gymnasium Gifhorn | Abschluss: Abitur |
-
-# IT Kenntnisse
-|  |
-| ----- | ----- |
-| Windows Administration | Server ab 2008 <br>Clients ab Windows 7|
-| Virtualisierung | Hyper-V <br>VMWare<br>Proxmox|
-| Datensicherung | Veeam |
-| Managed AV | ESET <br> Sophos|
-| RMM | Solarwinds / N-Able |
-| Active Directory | DHCP<br>DFS<br>DNS<br>DC |
-| Netwerk & Firewall | Sophos UTM <br>Lancom<br>Watchguard |
-| M365 | Exchange Online <br>Teams<br>AD Sync|
-| Telefonie | 3CX<br>Agfeo | 
-
-# IT Projekte
-* Migration von lokalem Exchange Server zu Exchange Online
-* Migration von Serverlandschaft in neues Rechenzentrum
-* Aufbau einer kompletten Arztpraxis mit neuen Clients, Servern, netzwerk und IOT-Geräten
+| <!-- -->              | <!-- -->                                     | <!-- -->                                                                      |
+|-----------------------|----------------------------------------------|-------------------------------------------------------------------------------|
+| Aug 2017 - Juni 2020  | Jupi Networks GmbH & Co. KG & BBS2 Wolfsburg | Abschluss: Abgeschlossene Ausbildung zum Fachinformatiker / Systemintegration |
+| Juli 2007 - Juni 2016 | Humboldt Gymnasium Gifhorn                   | Abschluss: Abitur                                                             |
 
 # Sonstiges
-|  |
-| ----- | -----|
-| Sprachen | Englisch <br />Deutsch |
-| Führerschein | Klasse B |
-| Zertifikate | PRINCE2 |
+|  <!-- -->             |  <!-- -->                                                                |
+|-----------------------|--------------------------------------------------------------------------|
+|                       |                                                                          |
+| Sprachen              | Englisch <br>Deutsch                                                     |
+| Führerschein          | Klasse B                                                                 |
+| Zertifikate           | PRINCE2                                                                  |
+| Sonstige Technologien | Proxmox <br>HUGO Webserver <br>Github <br>Cloudflare Zero Trust & Tunnel |
