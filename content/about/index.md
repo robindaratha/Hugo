@@ -17,4 +17,4 @@ Meinen Lebenlauf könnt ihr unter dem folgenden Link finden:
 [Lebenlauf](/cv)  
 
 Hier auch direkt als PDF:
-[PDF Lebenslauf](/cv.pdf)
+[PDF Lebenslauf](cv.pdf)
