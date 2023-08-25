@@ -14,4 +14,7 @@ https://github.com/robindaratha/Hugo
 
 # Lebenslauf
 Meinen Lebenlauf könnt ihr unter dem folgenden Link finden:
-[Lebenlauf](/cv)
+[Lebenlauf](/cv)  
+
+Hier auch direkt als PDF:
+[PDF Lebenslauf](/cv.pdf)
