@@ -17,7 +17,23 @@ tags:
 
 
 # Berufliche Laufbahn
-## Januar 2022 - heute
+## Januar 2024 - heute
+*Öffentliche Sachversicherung Braunschweig*
+### Aufgaben
+* Systemadministration im Windows Server Umfeld inkl. Hyper-V, Active-Directory, DNS
+* Backup Administration
+* Administartion Azure VM Betrieb
+### Verwendete Technologien
+* Windows Server
+* Hyper-V
+* Azure
+* MS SQL
+* MS Azure Backup Server (MABS)
+
+### Projekte
+Noch ausstehend
+
+## Januar 2022 - Dezember 2023
 *Health IT Services GmbH - Fachinformatiker Systemintegration*
 ### Aufgaben
 * Systemadministration im Windows Server Umfeld inkl. Hyper-V, Active-Directory, DNS, Exchange etc.
