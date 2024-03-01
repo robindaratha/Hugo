@@ -1,11 +1,11 @@
 ---
-title: "Chrome via Ps"
+title: "Chrome installieren via PowerShell"
 date: 2023-07-20T19:50:25+02:00
 draft: false
 tags: 
     - Windows
     - Skripte
-    - Powershell
+    - PowerShell
     - Installation
 ---
 Nachfolgend das Skript für die Installation von Chrome über die Powershell ohne zusätzliche Mittel wie Winget:
