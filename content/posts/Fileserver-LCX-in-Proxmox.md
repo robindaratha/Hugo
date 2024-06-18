@@ -16,6 +16,17 @@ Nachfolgend ist die Installation eines Fileserver mit SMB Freigabe innerhalb ein
 1. Promox Server mit eingerichtetem Daten-Pool (z.B. ZFS)
 2. Ein Debian LXC Template
 
+## Vorbereitung eines ZFS Datasets
+1. In Proxmox Shell den folgenden Befehl eingeben zur Erstellung eines ZFS Datasets:
+```
+zfs create <pool name>/<dataset name>
+
+```
+Die Kontrolle der richtigen Anlegung geht mit dem folgenden Befehl:
+```
+zfs list
+
+```
 # Installation Container
 1. Unpriviligierten Debian LXC installieren und Nesting aktivieren. Die Standardwerte mit  512MiB RAM und 8GiB sind ausreichend. Den Container nicht automatisch starten lassen.
 2. ID des Containers vermerken
@@ -26,7 +37,7 @@ nano /etc/pve/lxc/<ID>.conf
 ```
 Hier muss der Eintrag gesetzt werden:
 ```
-mp0: <zfs pool name>:subvol-<id>-disk-0,mp=/mnt/Daten,backup=1,size=<benutzerdefinierte Größe>G
+mp0: /<zfs pool name>/<dataset name>,mp=/mnt/<interner Mountpoint>,backup=1
 
 ```
 4. Nun kann der Container gestartet werden.
@@ -36,7 +47,7 @@ mp0: <zfs pool name>:subvol-<id>-disk-0,mp=/mnt/Daten,backup=1,size=<benutzerdef
 ```
 apt update
 apt upgrade
-apt install cokpit --no-install-recommends
+apt install cockpit --no-install-recommends
 
 ```
 2. Installation der zusätzlichen Addons für Cockpit
