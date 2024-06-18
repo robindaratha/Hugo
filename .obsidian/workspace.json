@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/cv.md",
+                "file": "content/about/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/cv.md",
+                "file": "content/about/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/cv.md",
+                "file": "content/about/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/cv.md"
+                "file": "content/about/index.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "b76a99aa16e8600d",
   "lastOpenFiles": [
+    "content/cv.md",
     "content/posts/beispiel.md"
   ]
 }

@@ -18,7 +18,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Homepage
   description: "Homepage"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Blog, Portfolio, CV]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: "/about/Images/Profilbild_RDA.jpg"
@@ -83,8 +83,8 @@ params:
     Content: Willkommen zu meinem Blog
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/RDaratha"
+    - name: X.com
+      url: "https://x.com/RDaratha"
     - name: LinkedIn
       url: "https://Linkedin.com/in/robin-daratha-87618012a"
     - name: github
