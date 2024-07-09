@@ -202,6 +202,7 @@ Process {
     }
 }
 ```
+# Durchführung
 
 Speichert das Skript unter "Set-WmiNamespaceSecurity.ps1" ab und führt die folgende Syntax für die jewiligen Benutzer aus:
 
