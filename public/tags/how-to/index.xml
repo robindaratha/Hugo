@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>How-To on </title>
+    <link>http://localhost:1313/tags/how-to/</link>
+    <description>Recent content in How-To on </description>
+    <image>
+      <title></title>
+      <url>http://localhost:1313/47</url>
+      <link>http://localhost:1313/47</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Tue, 09 Jul 2024 20:30:26 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WMI Berechtigungen via Powershell</title>
+      <link>http://localhost:1313/posts/wmi-berechtigungen-via-powershell/</link>
+      <pubDate>Tue, 09 Jul 2024 20:30:26 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/wmi-berechtigungen-via-powershell/</guid>
+      <description>Einführung WMI Berechtigungen müssen z.B. für Inventory Serviceaccounts eingerichtet werden, wenn diese keine lokalen Administartrorenrechte auf dem jeweiligen System haben sollen. Hier ein Beispiel von Matrix42: Matrix42 Supportseite
+Skript Nachfolgend ist das Skript zu finden:
+# Copyright (c) Microsoft Corporation. All rights reserved. # For personal use only. Provided AS IS and WITH ALL FAULTS. # Set-WmiNamespaceSecurity.ps1 # Example: Set-WmiNamespaceSecurity root/cimv2 add steve Enable,RemoteAccess # Taken from https://live.paloaltonetworks.com/t5/Management-Articles/PowerShell-Script-for-setting-WMI-Permissions-for-User-ID/ta-p/53646 # Modified by Stuart Clarkson (https://github.</description>
+    </item>
+    
+    <item>
+      <title>Fileserver LCX in Proxmox</title>
+      <link>http://localhost:1313/posts/fileserver-lcx-in-proxmox/</link>
+      <pubDate>Fri, 21 Jul 2023 11:14:51 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/fileserver-lcx-in-proxmox/</guid>
+      <description>Einleitung Nachfolgend ist die Installation eines Fileserver mit SMB Freigabe innerhalb einer LCX auf Debian Basis in Proxmox beschrieben.
+Voraussetzungen Promox Server mit eingerichtetem Daten-Pool (z.B. ZFS) Ein Debian LXC Template Vorbereitung eines ZFS Datasets In Proxmox Shell den folgenden Befehl eingeben zur Erstellung eines ZFS Datasets: zfs create &amp;lt;pool name&amp;gt;/&amp;lt;dataset name&amp;gt; Die Kontrolle der richtigen Anlegung geht mit dem folgenden Befehl:
+zfs list Installation Container Unpriviligierten Debian LXC installieren und Nesting aktivieren.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Debian on </title>
+    <link>http://localhost:1313/tags/debian/</link>
+    <description>Recent content in Debian on </description>
+    <image>
+      <title></title>
+      <url>http://localhost:1313/47</url>
+      <link>http://localhost:1313/47</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Fri, 21 Jul 2023 11:14:51 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fileserver LCX in Proxmox</title>
+      <link>http://localhost:1313/posts/fileserver-lcx-in-proxmox/</link>
+      <pubDate>Fri, 21 Jul 2023 11:14:51 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/fileserver-lcx-in-proxmox/</guid>
+      <description>Einleitung Nachfolgend ist die Installation eines Fileserver mit SMB Freigabe innerhalb einer LCX auf Debian Basis in Proxmox beschrieben.
+Voraussetzungen Promox Server mit eingerichtetem Daten-Pool (z.B. ZFS) Ein Debian LXC Template Vorbereitung eines ZFS Datasets In Proxmox Shell den folgenden Befehl eingeben zur Erstellung eines ZFS Datasets: zfs create &amp;lt;pool name&amp;gt;/&amp;lt;dataset name&amp;gt; Die Kontrolle der richtigen Anlegung geht mit dem folgenden Befehl:
+zfs list Installation Container Unpriviligierten Debian LXC installieren und Nesting aktivieren.</description>
+    </item>
+    
+  </channel>
+</rss>
